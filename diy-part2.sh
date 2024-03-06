@@ -20,7 +20,7 @@ sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generat
 sed -i 's/ImmortalWrt-2.4G/Wireless/g' package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
 sed -i 's/ImmortalWrt-5G/Wireless-5G/g' package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
 
-#修改闪存为256M版本(这是针对原厂128闪存来的，但又要编译256M固件来的）
+#修改闪存为256M版本(这是针对原厂128闪存来的，但又要编译256M固件来的,即自己仓库的256不用，但别人128的仓库要）
 #sed -i 's/<0x580000 0x7200000>/<0x580000 0xee00000>/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m.dts
 #sed -i 's/116736k/240128k/g' target/linux/mediatek/image/mt7981.mk
 
