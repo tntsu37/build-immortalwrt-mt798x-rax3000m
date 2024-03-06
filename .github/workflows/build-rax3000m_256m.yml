@@ -145,4 +145,4 @@ jobs:
         body: |
           # 未测试×
           
-          IP: 192.168.5.1 | Password: none
+          IP: 192.168.1.1 | Password: none
