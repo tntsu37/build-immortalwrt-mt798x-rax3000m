@@ -6,4 +6,4 @@
 * 登陆IP:192.168.5.1
   密码：空
 * 近期由于kenzo仓库添加了istore,导致和237仓库既有的istore的app在编译时冲突，请编译时注意在diy-part2.sh中加入命令删除某些重复的软件包。
-本库FORK自
+* 本库FORK自 zikura88大佬
