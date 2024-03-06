@@ -25,11 +25,11 @@ env:
   REPO_URL: https://github.com/tntsu37/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: rax3000m_256m_240306.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   TZ: Asia/Shanghai
-  DEVICE: rax3000m_256m_240306
+  DEVICE: rax3000m_256m
   UPLOAD_OUTPUT: true
 
 jobs:
