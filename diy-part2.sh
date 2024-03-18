@@ -24,6 +24,9 @@ sed -i 's/ImmortalWrt-5G/Wireless-5G/g' package/mtk/applications/mtwifi-cfg/file
 #sed -i 's/<0x580000 0x7200000>/<0x580000 0xee00000>/g' target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m.dts
 #sed -i 's/116736k/240128k/g' target/linux/mediatek/image/mt7981.mk
 
+#解决v2dat冲突
+sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile
+
 #删除冲突的软件包
 #rm -rf ./package/istore
 #rm -rf ./feeds/kenzo/luci-app-quickstart
